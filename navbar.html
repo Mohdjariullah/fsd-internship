@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+</head>
+<style>
+    *{
+        margin: auto;
+        padding: 0;
+    }
+    #nav{
+        background-color: #333;
+        overflow: hidden;
+    }
+    #nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #nav ul li{
+        float: left;
+    }
+    #nav ul li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 19px;
+        text-decoration: none;
+        border-color: rgb(0, 47, 255);
+        border-style:solid;
+        border-radius: 100px;
+
+    }
+    #nav ul li a:hover{
+        background-color: #111;
+    }
+    .Search{
+        float: right;
+        width: 60%;
+        display: block;
+        text-align: center;
+        padding: 14px 19px;
+        text-decoration: none;
+        border-color: black;
+        border-radius: 100px;
+        border-spacing: 2px;
+        border-style: solid;
+        background-color: aliceblue;
+        
+    }
+</style>
+<body>
+    <div id="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Add</a></li>
+            <li><a href="#">View</a></li>
+            <li class="Search">Search</li>
+        </ul>
+    </div>
+</body>
+</html>
