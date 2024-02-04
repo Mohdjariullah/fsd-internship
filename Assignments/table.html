@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+    }
+    table tr th {
+      background-color: rgb(23, 212, 149);
+      color: aliceblue;
+    }
+    tr:nth-child(even) {
+      background: #ffffff;
+    }
+    tr:nth-child(odd) {
+      background: #e7e7db;
+    }
+    tr#og {
+      color: rgb(16, 194, 134);
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Points</th>
+        <th>Team</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Domestic</td>
+        <td>88,110</td>
+        <td>dcode</td>
+      </tr>
+      <tr id="og">
+        <td>2</td>
+        <td>Sally</td>
+        <td>72,400</td>
+        <td>Team 2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Nick</td>
+        <td>52,300</td>
+        <td>dcode</td>
+      </tr>
+    </table>
+  </body>
+</html>
